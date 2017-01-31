@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "twistedmod3",
+  "name": "Twisted Mod 3",
+  "description": "TheDaveStream's twisted mod, for twisted people.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TheDaveStream"],
+  "credits": "TheDaveStream (formally mrgreaper)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
