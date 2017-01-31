@@ -1,5 +1,6 @@
 package com.mrgreaper2004.twistedmod3.proxy;
 
+import com.mrgreaper2004.twistedmod3.item.ModItems;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -15,6 +16,7 @@ public class ClientProxy extends CommonProxy{
 
     @Override
     public void init(FMLInitializationEvent event) {
+        ModItems.registerRenders();
 
     }
 

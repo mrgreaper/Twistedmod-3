@@ -1,5 +1,6 @@
 package com.mrgreaper2004.twistedmod3;
 
+import com.mrgreaper2004.twistedmod3.item.ModItems;
 import com.mrgreaper2004.twistedmod3.proxy.CommonProxy;
 
 import com.mrgreaper2004.twistedmod3.tab.CreativeTabTwistedMod;
@@ -29,6 +30,7 @@ public class TwistedMod3 {
     @EventHandler
     public void preinit(FMLPreInitializationEvent event){
         tabTwistedMod =new CreativeTabTwistedMod(CreativeTabs.getNextID(),"tab_twisted");
+        ModItems.preInit();
         proxy.preInit(event);
     }
 
