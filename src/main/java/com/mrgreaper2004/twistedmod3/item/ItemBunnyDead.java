@@ -27,8 +27,7 @@ public class ItemBunnyDead extends Item {
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {
         if (!worldIn.isRemote) {
-            worldIn.playSound(null,playerIn.posX,playerIn.posY,playerIn.posX, SoundHandler.laugh, SoundCategory.PLAYERS, 0.5F, (float) (0.5 + Math.random() * 0.5));
-            
+            worldIn.playSound(null,playerIn.posX,playerIn.posY,playerIn.posZ, SoundHandler.laugh, SoundCategory.PLAYERS, 1,1); //0.5F, (float) (0.5 + Math.random() * 0.5));
             playerIn.addChatComponentMessage(new TextComponentString("Right clicked"));
         }
         return super.onItemRightClick(itemStackIn, worldIn, playerIn, hand);

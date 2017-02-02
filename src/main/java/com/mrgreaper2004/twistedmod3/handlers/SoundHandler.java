@@ -3,6 +3,7 @@ package com.mrgreaper2004.twistedmod3.handlers;
 import com.mrgreaper2004.twistedmod3.TwistedMod3;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by mrgre on 02/02/2017.
@@ -131,7 +132,13 @@ public final class SoundHandler {
         alarm_scifiD=register("alarm_scifiD");
     }
 
+    private static SoundEvent registerALT(String soundName) {
+        final ResourceLocation soundID = new ResourceLocation("twistedmod3", soundName);
+        return GameRegistry.register(new SoundEvent(soundID).setRegistryName(soundID));
+    }
+
     public static SoundEvent register(String name) {
+
         ResourceLocation loc = new ResourceLocation(TwistedMod3.MODID,name);
         SoundEvent e = new SoundEvent(loc);
         System.out.print("registered "+name+" from "+loc.toString());
