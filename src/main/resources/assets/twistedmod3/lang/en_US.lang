@@ -4,6 +4,12 @@
 itemGroup.tab_twisted=Twisted Mod3
 
 #items
-item.twistedmod_item.name=twistedmod3 Item 1
+item.bunny_dead.name=Dead Bunny
+item.bunny_sword.name=Bunny Sword
+item.death_orb.name=Death Orb
+item.bunny_electrified.name=Electrified Bunny
+item.orphan_leg.name=Orphan leg
+item.orphan_balloon.name=Balloon
+item.bunny_hilt.name=Bunny Sword Hilt
 
 #blocks
