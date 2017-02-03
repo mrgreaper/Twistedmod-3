@@ -1,5 +1,6 @@
 package com.mrgreaper2004.twistedmod3;
 
+import com.mrgreaper2004.twistedmod3.blocks.ModBlocks;
 import com.mrgreaper2004.twistedmod3.handlers.SoundHandler;
 import com.mrgreaper2004.twistedmod3.item.ModItems;
 import com.mrgreaper2004.twistedmod3.proxy.CommonProxy;
@@ -32,6 +33,7 @@ public class TwistedMod3 {
     public void preinit(FMLPreInitializationEvent event){
         tabTwistedMod =new CreativeTabTwistedMod(CreativeTabs.getNextID(),"tab_twisted");
         ModItems.preInit();
+        ModBlocks.preInit();
         proxy.preInit(event);
         SoundHandler.init();
     }

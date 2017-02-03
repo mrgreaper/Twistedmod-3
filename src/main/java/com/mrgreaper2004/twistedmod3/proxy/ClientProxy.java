@@ -1,6 +1,7 @@
 package com.mrgreaper2004.twistedmod3.proxy;
 
 import com.mrgreaper2004.twistedmod3.TwistedMod3;
+import com.mrgreaper2004.twistedmod3.blocks.ModBlocks;
 import com.mrgreaper2004.twistedmod3.item.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -19,6 +20,7 @@ public class ClientProxy extends CommonProxy{
         OBJLoader.INSTANCE.addDomain(TwistedMod3.MODID);
         registerModel(ModItems.deathOrb);
 
+
     }
 
     public void registerModel( Item item){
@@ -28,6 +30,7 @@ public class ClientProxy extends CommonProxy{
     @Override
     public void init(FMLInitializationEvent event) {
         ModItems.registerRenders();
+        ModBlocks.registerRenders();
 
     }
 
