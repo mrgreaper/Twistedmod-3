@@ -2,6 +2,7 @@ package com.mrgreaper2004.twistedmod3.item;
 
 import com.mrgreaper2004.twistedmod3.TwistedMod3;
 import com.mrgreaper2004.twistedmod3.handlers.SoundHandler;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.EnumRarity;
@@ -23,6 +24,8 @@ public class ItemBunnyDead extends Item {
         setCreativeTab(TwistedMod3.tabTwistedMod);
         //setMaxStackSize(1);
     }
+
+
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {

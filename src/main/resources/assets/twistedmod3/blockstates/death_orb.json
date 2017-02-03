@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "twistedmod3:death_orb.obj"
+  },
+  "variants": {
+    "inventory": [
+      {
+        "transform": {
+          "thirdperson_lefthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 1, 1, 0 ],
+            "scale": 1.02
+          },
+          "thirdperson_righthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 1, 1, 0 ],
+            "scale": 1.02
+          },
+          "gui": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 1.2, 0, 0 ],
+            "scale": 1.02
+          },
+          "firstperson_righthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 1.2, 0, 0 ],
+            "scale": 1.02
+          },
+          "firstperson_lefthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 1.2, 0, 0 ],
+            "scale": 1.02
+          },
+          "ground": {
+            "rotation": [ { "x": 45 }, { "y": 0 }, { "z": 0 } ],
+            "scale": 1.02
+          }
+        }
+      }
+    ]
+  }
+}

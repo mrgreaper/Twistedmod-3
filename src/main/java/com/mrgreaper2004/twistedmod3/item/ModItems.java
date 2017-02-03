@@ -47,7 +47,7 @@ public class ModItems {
     public static void registerRenders(){
         registerRender(bunnySword);
         registerRender(bunnyDead);
-        registerRender(deathOrb);
+        //registerRender(deathOrb);
         registerRender(orphanLeg);
         registerRender(orphanBalloon);
         registerRender(bunnyElectrified);
